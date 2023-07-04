@@ -1,0 +1,349 @@
+{
+  "@context" : {
+    "scopeNote" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#scopeNote"
+    },
+    "OliveResiduesProperty" : {
+      "@id" : "http://w3.id.org/def/BiomassOntology#OliveResiduesProperty"
+    },
+    "WoodChipsHogFuelProperty" : {
+      "@id" : "http://w3.id.org/def/BiomassOntology#WoodChipsHogFuelProperty"
+    },
+    "ShavingsProperty" : {
+      "@id" : "http://w3.id.org/def/BiomassOntology#ShavingsProperty"
+    },
+    "Shavings" : {
+      "@id" : "http://w3.id.org/def/BiomassOntology#Shavings"
+    },
+    "Sulfur" : {
+      "@id" : "http://w3.id.org/def/BiomassOntology#Sulfur"
+    },
+    "SawdustProperty" : {
+      "@id" : "http://w3.id.org/def/BiomassOntology#SawdustProperty"
+    },
+    "semanticRelation" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#semanticRelation",
+      "@type" : "@id"
+    },
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
+    "FruitSeedsResult" : {
+      "@id" : "http://w3.id.org/def/BiomassOntology#FruitSeedsResult"
+    },
+    "fromBiomass" : {
+      "@id" : "http://w3.id.org/def/BiomassOntology#fromBiomass",
+      "@type" : "@id"
+    },
+    "example" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#example"
+    },
+    "WoodChipsHogFuel" : {
+      "@id" : "http://w3.id.org/def/BiomassOntology#WoodChipsHogFuel"
+    },
+    "hiddenLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#hiddenLabel"
+    },
+    "FixedCarbon" : {
+      "@id" : "http://w3.id.org/def/BiomassOntology#FixedCarbon"
+    },
+    "CharcoalProperty" : {
+      "@id" : "http://w3.id.org/def/BiomassOntology#CharcoalProperty"
+    },
+    "Ash" : {
+      "@id" : "http://w3.id.org/def/BiomassOntology#Ash"
+    },
+    "Thing" : {
+      "@id" : "http://www.w3.org/2002/07/owl#Thing"
+    },
+    "Diameter" : {
+      "@id" : "http://w3.id.org/def/BiomassOntology#Diameter"
+    },
+    "WoodChipsHogFuelResult" : {
+      "@id" : "http://w3.id.org/def/BiomassOntology#WoodChipsHogFuelResult"
+    },
+    "OliveResidues" : {
+      "@id" : "http://w3.id.org/def/BiomassOntology#OliveResidues"
+    },
+    "BaleResult" : {
+      "@id" : "http://w3.id.org/def/BiomassOntology#BaleResult"
+    },
+    "FeatureOfInterest" : {
+      "@id" : "http://www.w3.org/ns/sosa/FeatureOfInterest"
+    },
+    "Chlorine" : {
+      "@id" : "http://w3.id.org/def/BiomassOntology#Chlorine"
+    },
+    "FruitSeeds" : {
+      "@id" : "http://w3.id.org/def/BiomassOntology#FruitSeeds"
+    },
+    "biomassOf" : {
+      "@id" : "http://w3.id.org/def/BiomassOntology#biomassOf",
+      "@type" : "@id"
+    },
+    "domainIncludes" : {
+      "@id" : "http://schema.org/domainIncludes"
+    },
+    "CharcoalResult" : {
+      "@id" : "http://w3.id.org/def/BiomassOntology#CharcoalResult"
+    },
+    "madeBySensor" : {
+      "@id" : "http://www.w3.org/ns/sosa/madeBySensor",
+      "@type" : "@id"
+    },
+    "altLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#altLabel"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "narrower" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#narrower",
+      "@type" : "@id"
+    },
+    "historyNote" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#historyNote"
+    },
+    "Concept" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    "Result" : {
+      "@id" : "http://www.w3.org/ns/sosa/Result"
+    },
+    "CalorificValue" : {
+      "@id" : "http://w3.id.org/def/BiomassOntology#CalorificValue"
+    },
+    "Length" : {
+      "@id" : "http://w3.id.org/def/BiomassOntology#Length"
+    },
+    "PelletProperty" : {
+      "@id" : "http://w3.id.org/def/BiomassOntology#PelletProperty"
+    },
+    "LogFirewood" : {
+      "@id" : "http://w3.id.org/def/BiomassOntology#LogFirewood"
+    },
+    "FruitSeedsProperty" : {
+      "@id" : "http://w3.id.org/def/BiomassOntology#FruitSeedsProperty"
+    },
+    "hasProperty" : {
+      "@id" : "http://www.w3.org/ns/ssn/hasProperty",
+      "@type" : "@id"
+    },
+    "Charcoal" : {
+      "@id" : "http://w3.id.org/def/BiomassOntology#Charcoal"
+    },
+    "MechanicalDurability" : {
+      "@id" : "http://w3.id.org/def/BiomassOntology#MechanicalDurability"
+    },
+    "note" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#note"
+    },
+    "Moisture" : {
+      "@id" : "http://w3.id.org/def/BiomassOntology#Moisture"
+    },
+    "resultTime" : {
+      "@id" : "http://www.w3.org/ns/sosa/resultTime",
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/terms/creator"
+    },
+    "Pellet" : {
+      "@id" : "http://w3.id.org/def/BiomassOntology#Pellet"
+    },
+    "Briquette" : {
+      "@id" : "http://w3.id.org/def/BiomassOntology#Briquette"
+    },
+    "EnergyGrainResult" : {
+      "@id" : "http://w3.id.org/def/BiomassOntology#EnergyGrainResult"
+    },
+    "Width" : {
+      "@id" : "http://w3.id.org/def/BiomassOntology#Width"
+    },
+    "topObjectProperty" : {
+      "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+      "@type" : "@id"
+    },
+    "LogFirewoodProperty" : {
+      "@id" : "http://w3.id.org/def/BiomassOntology#LogFirewoodProperty"
+    },
+    "rangeIncludes" : {
+      "@id" : "http://schema.org/rangeIncludes"
+    },
+    "Bale" : {
+      "@id" : "http://w3.id.org/def/BiomassOntology#Bale"
+    },
+    "isResultOf" : {
+      "@id" : "http://www.w3.org/ns/sosa/isResultOf",
+      "@type" : "@id"
+    },
+    "Dimensions" : {
+      "@id" : "http://w3.id.org/def/BiomassOntology#Dimensions"
+    },
+    "SawdustResult" : {
+      "@id" : "http://w3.id.org/def/BiomassOntology#SawdustResult"
+    },
+    "OliveResiduesResult" : {
+      "@id" : "http://w3.id.org/def/BiomassOntology#OliveResiduesResult"
+    },
+    "LogFirewoodResult" : {
+      "@id" : "http://w3.id.org/def/BiomassOntology#LogFirewoodResult"
+    },
+    "Bark" : {
+      "@id" : "http://w3.id.org/def/BiomassOntology#Bark"
+    },
+    "isDefinedBy" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
+    },
+    "definition" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#definition"
+    },
+    "Sawdust" : {
+      "@id" : "http://w3.id.org/def/BiomassOntology#Sawdust"
+    },
+    "BaleProperty" : {
+      "@id" : "http://w3.id.org/def/BiomassOntology#BaleProperty"
+    },
+    "editorialNote" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#editorialNote"
+    },
+    "observes" : {
+      "@id" : "http://www.w3.org/ns/sosa/observes",
+      "@type" : "@id"
+    },
+    "narrowerTransitive" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#narrowerTransitive",
+      "@type" : "@id"
+    },
+    "hasResult" : {
+      "@id" : "http://www.w3.org/ns/sosa/hasResult",
+      "@type" : "@id"
+    },
+    "ConceptScheme" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+    },
+    "Property" : {
+      "@id" : "http://www.w3.org/ns/ssn/Property"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/terms/title"
+    },
+    "Density" : {
+      "@id" : "http://w3.id.org/def/BiomassOntology#Density"
+    },
+    "isObservedBy" : {
+      "@id" : "http://www.w3.org/ns/sosa/isObservedBy",
+      "@type" : "@id"
+    },
+    "PelletResult" : {
+      "@id" : "http://w3.id.org/def/BiomassOntology#PelletResult"
+    },
+    "changeNote" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#changeNote"
+    },
+    "ShavingsResult" : {
+      "@id" : "http://w3.id.org/def/BiomassOntology#ShavingsResult"
+    },
+    "Height" : {
+      "@id" : "http://w3.id.org/def/BiomassOntology#Height"
+    },
+    "hasFeatureOfInterest" : {
+      "@id" : "http://www.w3.org/ns/sosa/hasFeatureOfInterest",
+      "@type" : "@id"
+    },
+    "EnergyGrainProperty" : {
+      "@id" : "http://w3.id.org/def/BiomassOntology#EnergyGrainProperty"
+    },
+    "BulkDensity" : {
+      "@id" : "http://w3.id.org/def/BiomassOntology#BulkDensity"
+    },
+    "Biofuel" : {
+      "@id" : "http://w3.id.org/def/BiomassOntology#Biofuel"
+    },
+    "observedProperty" : {
+      "@id" : "http://www.w3.org/ns/sosa/observedProperty",
+      "@type" : "@id"
+    },
+    "madeObservation" : {
+      "@id" : "http://www.w3.org/ns/sosa/madeObservation",
+      "@type" : "@id"
+    },
+    "topConceptOf" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#topConceptOf",
+      "@type" : "@id"
+    },
+    "BriquetteProperty" : {
+      "@id" : "http://w3.id.org/def/BiomassOntology#BriquetteProperty"
+    },
+    "AshMeltingBehaviour" : {
+      "@id" : "http://w3.id.org/def/BiomassOntology#AshMeltingBehaviour"
+    },
+    "date" : {
+      "@id" : "http://purl.org/dc/terms/date"
+    },
+    "isPropertyOf" : {
+      "@id" : "http://www.w3.org/ns/ssn/isPropertyOf",
+      "@type" : "@id"
+    },
+    "broaderTransitive" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#broaderTransitive",
+      "@type" : "@id"
+    },
+    "broader" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#broader",
+      "@type" : "@id"
+    },
+    "BriquetteResult" : {
+      "@id" : "http://w3.id.org/def/BiomassOntology#BriquetteResult"
+    },
+    "EnergyGrain" : {
+      "@id" : "http://w3.id.org/def/BiomassOntology#EnergyGrain"
+    },
+    "AdditivesContent" : {
+      "@id" : "http://w3.id.org/def/BiomassOntology#AdditivesContent"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "ObservableProperty" : {
+      "@id" : "http://www.w3.org/ns/sosa/ObservableProperty"
+    },
+    "Nitrogen" : {
+      "@id" : "http://w3.id.org/def/BiomassOntology#Nitrogen"
+    },
+    "hasTopConcept" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#hasTopConcept",
+      "@type" : "@id"
+    },
+    "prefLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel"
+    },
+    "inScheme" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#inScheme",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "BarkProperty" : {
+      "@id" : "http://w3.id.org/def/BiomassOntology#BarkProperty"
+    },
+    "Observation" : {
+      "@id" : "http://www.w3.org/ns/sosa/Observation"
+    },
+    "Sensor" : {
+      "@id" : "http://www.w3.org/ns/sosa/Sensor"
+    },
+    "hasSimpleResult" : {
+      "@id" : "http://www.w3.org/ns/sosa/hasSimpleResult",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "BarkResult" : {
+      "@id" : "http://w3.id.org/def/BiomassOntology#BarkResult"
+    },
+    "isFeatureOfInterestOf" : {
+      "@id" : "http://www.w3.org/ns/sosa/isFeatureOfInterestOf",
+      "@type" : "@id"
+    }
+  }
+}
