@@ -1,7 +1,7 @@
 digraph ar2dtool_diagram { 
 rankdir=LR;
 size="1501"
-node [shape = rectangle, color="orange"]; "http://www.w3.org/ns/sosa/FeatureOfInterest" "base:OliveResiduesResult" "base:BaleProperty" "base:WoodChipsHogFuel" "base:OliveResidues" "http://www.w3.org/ns/sosa/Result" "base:SawdustResult" "base:WoodChipsHogFuelResult" "base:BaleResult" "base:EnergyGrainResult" "base:PelletResult" "base:EnergyGrain" "base:BriquetteProperty" "base:OliveResiduesProperty" "base:CharcoalProperty" "base:Biofuel" "base:Sawdust" "base:PelletProperty" "base:BriquetteResult" "base:WoodChipsHogFuelProperty" "skos:ConceptScheme" "base:BarkResult" "base:Bale" "http://www.w3.org/ns/sosa/Observation" "skos:Concept" "base:BarkProperty" "http://www.w3.org/ns/sosa/ObservableProperty" "base:Shavings" "base:SawdustProperty" "base:FruitSeedsProperty" "http://www.w3.org/ns/sosa/Sensor" "base:FruitSeedsResult" "base:Charcoal" "base:LogFirewoodProperty" "base:CharcoalResult" "base:FruitSeeds" "base:LogFirewood" "base:Pellet" "base:ShavingsResult" "base:Bark" "73f3a51b:18920722e71:-7fef" "base:ShavingsProperty" "base:EnergyGrainProperty" "base:LogFirewoodResult" "http://www.w3.org/ns/ssn/Property" "base:Briquette" ; /*classes style*/
+node [shape = rectangle, color="orange"]; "http://www.w3.org/ns/sosa/FeatureOfInterest" "base:OliveResiduesResult" "base:BaleProperty" "base:WoodChipsHogFuel" "base:OliveResidues" "http://www.w3.org/ns/sosa/Result" "base:SawdustResult" "base:WoodChipsHogFuelResult" "base:BaleResult" "base:EnergyGrainResult" "base:PelletResult" "base:EnergyGrain" "base:BriquetteProperty" "base:OliveResiduesProperty" "base:CharcoalProperty" "base:Biofuel" "base:Sawdust" "base:PelletProperty" "base:BriquetteResult" "base:WoodChipsHogFuelProperty" "skos:ConceptScheme" "base:BarkResult" "base:Bale" "-44b1289b:18921001a48:-7fef" "http://www.w3.org/ns/sosa/Observation" "skos:Concept" "base:BarkProperty" "http://www.w3.org/ns/sosa/ObservableProperty" "base:Shavings" "base:SawdustProperty" "base:FruitSeedsProperty" "http://www.w3.org/ns/sosa/Sensor" "base:FruitSeedsResult" "base:Charcoal" "base:LogFirewoodProperty" "base:CharcoalResult" "base:FruitSeeds" "base:LogFirewood" "base:Pellet" "base:ShavingsResult" "base:Bark" "base:ShavingsProperty" "base:EnergyGrainProperty" "base:LogFirewoodResult" "http://www.w3.org/ns/ssn/Property" "base:Briquette" ; /*classes style*/
 	"http://w3.id.org/def/BiomassOntology#1-4-BlendsMixtures" -> "base:BiomassScheme" [ label = "skos:inScheme" ];
 	"http://w3.id.org/def/BiomassOntology#1-4-BlendsMixtures" -> "http://w3.id.org/def/BiomassOntology#1-WoodyBiomass" [ label = "skos:broader" ];
 	"http://w3.id.org/def/BiomassOntology#4-3-LakeSeaGrass" -> "base:BiomassScheme" [ label = "skos:inScheme" ];
@@ -135,8 +135,8 @@ node [shape = rectangle, color="orange"]; "http://www.w3.org/ns/sosa/FeatureOfIn
 	"base:Bale" -> "base:FruitSeeds" [ label = "owl:disjointWith" ];
 	"base:Bale" -> "base:Pellet" [ label = "owl:disjointWith" ];
 	"base:Bale" -> "base:Shavings" [ label = "owl:disjointWith" ];
-	"base:Bale" -> "base:Charcoal" [ label = "owl:disjointWith" ];
 	"base:Bale" -> "base:Briquette" [ label = "owl:disjointWith" ];
+	"base:Bale" -> "base:Charcoal" [ label = "owl:disjointWith" ];
 	"http://w3.id.org/def/BiomassOntology#4-1-Algae" -> "base:BiomassScheme" [ label = "skos:inScheme" ];
 	"http://w3.id.org/def/BiomassOntology#4-1-Algae" -> "http://w3.id.org/def/BiomassOntology#4-AquaticBiomass" [ label = "skos:broader" ];
 	"http://w3.id.org/def/BiomassOntology#1-2-1-4-Coniferous" -> "base:BiomassScheme" [ label = "skos:inScheme" ];
@@ -390,29 +390,29 @@ node [shape = rectangle, color="orange"]; "http://www.w3.org/ns/sosa/FeatureOfIn
 	"NULL" -> "base:FruitSeedsResult" [ label = "owl:allValuesFrom" ];
 	"NULL" -> "base:BaleResult" [ label = "owl:allValuesFrom" ];
 	"NULL" -> "http://www.w3.org/ns/sosa/FeatureOfInterest" [ label = "owl:allValuesFrom" ];
-	"NULL" -> "73f3a51b:18920722e71:-7fab" [ label = "owl:onProperty" ];
 	"NULL" -> "http://www.w3.org/ns/sosa/hasResult" [ label = "owl:onProperty" ];
 	"NULL" -> "http://www.w3.org/ns/sosa/Sensor" [ label = "owl:allValuesFrom" ];
 	"NULL" -> "base:EnergyGrainProperty" [ label = "owl:allValuesFrom" ];
-	"NULL" -> "73f3a51b:18920722e71:-7fef" [ label = "owl:someValuesFrom" ];
 	"NULL" -> "base:BarkProperty" [ label = "owl:allValuesFrom" ];
 	"NULL" -> "base:fromBiomass" [ label = "owl:onProperty" ];
+	"NULL" -> "-44b1289b:18921001a48:-7fee" [ label = "owl:intersectionOf" ];
 	"NULL" -> "base:ShavingsResult" [ label = "owl:allValuesFrom" ];
-	"NULL" -> "73f3a51b:18920722e71:-7fee" [ label = "owl:intersectionOf" ];
 	"NULL" -> "http://www.w3.org/ns/sosa/hasFeatureOfInterest" [ label = "owl:onProperty" ];
 	"NULL" -> "base:WoodChipsHogFuelResult" [ label = "owl:allValuesFrom" ];
 	"NULL" -> "rdf:nil" [ label = "rdf:rest" ];
 	"NULL" -> "base:FruitSeedsProperty" [ label = "owl:allValuesFrom" ];
 	"NULL" -> "base:PelletProperty" [ label = "owl:allValuesFrom" ];
+	"NULL" -> "-44b1289b:18921001a48:-7fef" [ label = "owl:someValuesFrom" ];
 	"NULL" -> "base:OliveResiduesProperty" [ label = "owl:allValuesFrom" ];
 	"NULL" -> "base:LogFirewoodProperty" [ label = "owl:allValuesFrom" ];
 	"NULL" -> "http://www.w3.org/ns/ssn/Property" [ label = "owl:allValuesFrom" ];
 	"NULL" -> "http://www.w3.org/ns/sosa/isResultOf" [ label = "owl:onProperty" ];
 	"NULL" -> "base:OliveResiduesResult" [ label = "owl:allValuesFrom" ];
 	"NULL" -> "base:WoodChipsHogFuelProperty" [ label = "owl:allValuesFrom" ];
+	"NULL" -> "-44b1289b:18921001a48:-7fab" [ label = "owl:onProperty" ];
 	"NULL" -> "http://www.w3.org/ns/sosa/madeBySensor" [ label = "owl:onProperty" ];
 	"NULL" -> "http://www.w3.org/ns/sosa/ObservableProperty" [ label = "owl:allValuesFrom" ];
-	"NULL" -> "73f3a51b:18920722e71:-7fec" [ label = "rdf:rest" ];
+	"NULL" -> "-44b1289b:18921001a48:-7fec" [ label = "rdf:rest" ];
 	"NULL" -> "base:BriquetteResult" [ label = "owl:allValuesFrom" ];
 	"NULL" -> "base:BarkResult" [ label = "owl:allValuesFrom" ];
 	"NULL" -> "http://www.w3.org/ns/sosa/resultTime" [ label = "owl:onProperty" ];
