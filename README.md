@@ -1,2 +1,2 @@
-# Practicas_TFM
-Repositorio con documentación relacionada con las prácticas curriculares y el TFM.
+# Biomass Ontology
+Repository with documentation of the Biomass Ontology.
